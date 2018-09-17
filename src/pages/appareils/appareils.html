@@ -6,7 +6,7 @@
   
   <ion-content padding>
     <ion-list>
-      <button ion-item *ngFor="let appareil of appareilsList" (click)="onLoadAppareil(appareil.name)">
+      <button ion-item *ngFor="let appareil of appareilsList" (click)="onLoadAppareil(appareil)">
         {{ appareil.name }}
       </button>
     </ion-list>
