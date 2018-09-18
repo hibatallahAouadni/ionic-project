@@ -1,5 +1,10 @@
 <ion-header>
   <ion-navbar>
+      <ion-buttons>
+          <button ion-button clear (click)="dismissModal()">
+              <ion-icon name="close-circle"></ion-icon>
+          </button>
+        </ion-buttons>
     <ion-title>{{ appareil.name }}</ion-title>
   </ion-navbar>
 </ion-header>
