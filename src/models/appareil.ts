@@ -6,6 +6,7 @@ export class Appareil {
     endTime: string;
   
     constructor(public name: string) {
+      this.description = [];
       this.isOn = false;
       this.startTime = '';
       this.endTime = '';
